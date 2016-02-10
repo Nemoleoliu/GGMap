@@ -15,6 +15,7 @@
 		58BFB1921C6BA66600202074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BFB1901C6BA66600202074 /* LaunchScreen.storyboard */; };
 		58BFB19D1C6BA66600202074 /* GGMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BFB19C1C6BA66600202074 /* GGMapTests.m */; };
 		58BFB1A81C6BA66600202074 /* GGMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BFB1A71C6BA66600202074 /* GGMapUITests.m */; };
+		58BFB1B61C6BAD6E00202074 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BFB1B51C6BAD6E00202074 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		58BFB1A31C6BA66600202074 /* GGMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BFB1A71C6BA66600202074 /* GGMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGMapUITests.m; sourceTree = "<group>"; };
 		58BFB1A91C6BA66600202074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58BFB1B51C6BAD6E00202074 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58BFB1B61C6BAD6E00202074 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		58BFB1761C6BA66600202074 = {
 			isa = PBXGroup;
 			children = (
+				58BFB1B51C6BAD6E00202074 /* CoreLocation.framework */,
 				58BFB1811C6BA66600202074 /* GGMap */,
 				58BFB19B1C6BA66600202074 /* GGMapTests */,
 				58BFB1A61C6BA66600202074 /* GGMapUITests */,
